@@ -8,5 +8,6 @@
 /httpRequests/
 
 #ignore folders
-S3-APP3/.idea/
-S3-APP3/out/
+.idea/
+out/
+*.iml
