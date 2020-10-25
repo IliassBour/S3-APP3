@@ -27,19 +27,27 @@ public class Transport implements Couche {
 
     @Override
     public void handle(String typeRequest, byte[] message) {
-        if(typeRequest.equals("sendFromApplication")) {
-            paquets = creerTrame(message);
+        if(typeRequest.equals("Adresse")) {
+            setNext(liaison);
+            nextCouche.handle(typeRequest, message);
+        } else if (typeRequest.equals("ErreurCRC")) {
+            setNext(liaison);
+            nextCouche.handle("ENVOI", paquets.get(numeroPaquet(message)+1));
+        } else if (typeRequest.equals("RECU")) {
+            lireTrame(message);
+        } else if(typeRequest.equals("LireFichier")) {
+            setNext(application);
+            nextCouche.handle("LireFichier",null);
+        } else {
+            paquets = creerTrame(message, typeRequest);
 
             setNext(liaison);
             nextCouche.handle("ENVOI", paquets.get(0));//Liaison donnée
-        } else {
-            lireTrame(message);
         }
     }
 
-    private ArrayList<byte[]> creerTrame(byte[] message) {
+    private ArrayList<byte[]> creerTrame(byte[] message, String titre) {
         float tailleFichier = message.length;
-        String titre = "";// à modifier quand on saura comment est envoyer le titre
 
         //Boucle pour séparer le fichier en paquet de 200 octets ou moins
         for(int index = 0; index < Math.ceil(tailleFichier/200)+1; index++) {
@@ -98,38 +106,48 @@ public class Transport implements Couche {
     private void lireTrame(byte[] message) {
         byte[] fichier;
 
+        //Vérifie si la transmission est de type Envoi pour le paquet
         if(verificationEnvoie(message)) {
+            //Vérifie si le numéro du Paquet est la suite des numéros de paquets recus
             if(verificationNumeroPaquet(message)) {
+                paquets.add(message);
+
+                //Vérifie s'il s'agit du dernier numéro de Paquet
                 if(verificationDernier(message)) {
                     fichier = creationFichier();
+                    String nomFichier = new String(Arrays.copyOfRange(paquets.get(0), 51, paquets.get(0).length),
+                            StandardCharsets.UTF_8);
 
-                    setNext(application);
-                    nextCouche.handle("sendToApplication", fichier);
                     //send to application serveur
+                    setNext(application);
+                    nextCouche.handle(nomFichier, fichier);
                 } else {
                     fichier = accuserReception(message);
 
                     setNext(liaison);
-                    nextCouche.handle("RECU", fichier);//send to liaison serveur
+                    nextCouche.handle("ENVOIE", fichier);//send to liaison serveur
                 }
             } else {
+                //Vérifie s'il s'agit du premier paquet
                 if(numeroPaquet(message) == 0) {
                     fichier = accuserReceptionErreur(message);
 
                     setNext(liaison);
-                    nextCouche.handle("ERREUR", fichier);//send to liaison serveur
+                    nextCouche.handle("ENVOI", fichier);//send to liaison serveur
                 } else {
                     fichier = accuserReceptionErreur(message);
 
                     setNext(liaison);
-                    nextCouche.handle("ERREUR", fichier);//send to liaison serveur
+                    nextCouche.handle("ENVOI", fichier);//send to liaison serveur
                 }
             }
-        } else if(verificationRecu(message)) {
+        //Vérifie si le paquet est un accusé de reception
+        } else if(verificationReception(message)) {
             fichier = paquets.get(numeroPaquet(message)+1);
 
             setNext(liaison);
             nextCouche.handle("ENVOI", fichier);//send to liaison client
+        //Le cas où le paquet est perdu
         } else {
             try {
                 fichier = retransmission(message);
@@ -174,7 +192,7 @@ public class Transport implements Couche {
         return verif;
     }
 
-    private boolean verificationRecu(byte[] message) {
+    private boolean verificationReception(byte[] message) {
         boolean verif = false;
         String trans = new String(Arrays.copyOfRange(message, 33, 37), StandardCharsets.UTF_8);
 
@@ -284,9 +302,9 @@ public class Transport implements Couche {
         for(int index = 1 ; index < paquets.size(); index++) {
             try {
                 if(index < paquets.size() - 1) {
-                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 250));
+                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 251));
                 } else {
-                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 250));
+                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 251));
                 }
             } catch (IOException e) {
                 e.printStackTrace();

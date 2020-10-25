@@ -16,13 +16,13 @@ public class ApplicationClient implements Couche {
             System.out.println("Écrire l'adresse IP du serveur : ");
             String adresseIp = scanner.next();
 
-            nextCouche.handle(adresseIp, null);
+            nextCouche.handle("Adresse", adresseIp.getBytes());
         } else {
             System.out.println("Écrire l'emplacement du fichier : ");
             String nomFichier = scanner.next();
 
             File fichier = new File(nomFichier);
-            String contenu = nomFichier+" :";
+            String contenu = "";
             String ligne;
             try {
                 FileReader reader1 = new FileReader(fichier);
@@ -33,7 +33,7 @@ public class ApplicationClient implements Couche {
                 }
 
                 contenu = contenu.substring(0, contenu.length()-1);
-                nextCouche.handle("sendFromApplication", contenu.getBytes());
+                nextCouche.handle(nomFichier, contenu.getBytes());
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
