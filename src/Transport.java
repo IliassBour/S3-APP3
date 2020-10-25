@@ -1,43 +1,48 @@
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.lang.*;
-import java.math.BigInteger;
-import java.nio.ByteBuffer;
+
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Transport implements Couche {
     private Couche nextCouche;
-    //private Couche erreur;
-    private ArrayList<byte[]> paquets = new ArrayList<byte[]>();
+    private Couche application;
+    private Couche liaison;
+    private ArrayList<byte[]> paquets = new ArrayList<>();
 
     @Override
     public void setNext(Couche couche) {
         nextCouche = couche;
     }
 
-    /*public void setErreur(Couche couche) {
-        erreur = couche;
-    }*/
+    public void setLiaison(Couche liaison) {
+        this.liaison = liaison;
+    }
+
+    public void setApplication(Couche application) {
+        this.application = application;
+    }
 
     @Override
-    public void handle(String typeRequest, byte[] message) throws TransmissionErrorException {
-        if(typeRequest == "sendToLiaison") {
+    public void handle(String typeRequest, byte[] message) {
+        if(typeRequest.equals("sendFromApplication")) {
             paquets = creerTrame(message);
 
-            nextCouche.handle("sendToLiaison", paquets.get(0));//Liaison donnée
+            setNext(liaison);
+            nextCouche.handle("ENVOI", paquets.get(0));//Liaison donnée
         } else {
             lireTrame(message);
         }
     }
 
     private ArrayList<byte[]> creerTrame(byte[] message) {
-        int tailleFichier = new BigInteger(message).toString(2).length();
+        float tailleFichier = message.length;
         String titre = "";// à modifier quand on saura comment est envoyer le titre
 
         //Boucle pour séparer le fichier en paquet de 200 octets ou moins
-        for(Integer index = 0; index < Math.ceil(tailleFichier/200)+1; index++) {
+        for(int index = 0; index < Math.ceil(tailleFichier/200)+1; index++) {
             String numeroPaquet, taillePaquet, dernierPaquet; //String pour les nombres binaire des variables
 
             //Création de la partie de l'entête pour le numéro du paquet
@@ -57,12 +62,13 @@ public class Transport implements Couche {
                 taillePaquet = "Taille:"+(titre.getBytes().length + 51);
             } else if(index == Math.ceil(tailleFichier/200)) {
                 // les octets pour les données restantes du fichier + 52 octects pour l'entête
-                taillePaquet = "Taille:"+(tailleFichier - ((index-1) * 200) + 51);
+                taillePaquet = "Taille:"+((int) tailleFichier - ((index-1) * 200) + 51);
             } else {
                 // 200 octets pour les données + 52 octects pour l'entête
-                taillePaquet = "taille:251"; //10 octect
+                taillePaquet = "Taille:251"; //10 octect
             }
             taillePaquet = remplissage(taillePaquet, 10);
+
 
             //Insère le paquet dans l'ArrayList
             ByteArrayOutputStream paquet = new ByteArrayOutputStream();
@@ -74,8 +80,10 @@ public class Transport implements Couche {
 
                 if(index == 0) {
                     paquet.write(titre.getBytes());
+                } else if(index == Math.ceil(tailleFichier/200)) {
+                    paquet.write(Arrays.copyOfRange(message, (index-1)*200, (int) tailleFichier));
                 } else {
-                    paquet.write(Arrays.copyOfRange(message, (index-1)*200, 199+((index-1)*200)));
+                    paquet.write(Arrays.copyOfRange(message, (index-1)*200, index*200));
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -87,41 +95,52 @@ public class Transport implements Couche {
         return paquets;
     }
 
-    private boolean lireTrame(byte[] message) throws TransmissionErrorException {
-        boolean verification = false;
+    private void lireTrame(byte[] message) {
         byte[] fichier;
 
-        if(verificationEnvoie(message) == true) {
-            if(verificationNumeroPaquet(message) == true) {
-                if(verificationDernier(message) == true) {
-                    //envoyer à application
+        if(verificationEnvoie(message)) {
+            if(verificationNumeroPaquet(message)) {
+                if(verificationDernier(message)) {
+                    fichier = creationFichier();
+
+                    setNext(application);
+                    nextCouche.handle("sendToApplication", fichier);
+                    //send to application serveur
                 } else {
                     fichier = accuserReception(message);
 
-                    nextCouche.handle("Reception", fichier);
+                    setNext(liaison);
+                    nextCouche.handle("RECU", fichier);//send to liaison serveur
                 }
             } else {
                 if(numeroPaquet(message) == 0) {
                     fichier = accuserReceptionErreur(message);
 
-                    nextCouche.handle("Erreur", fichier);
+                    setNext(liaison);
+                    nextCouche.handle("ERREUR", fichier);//send to liaison serveur
                 } else {
                     fichier = accuserReceptionErreur(message);
 
-                    nextCouche.handle("Erreur", fichier);
+                    setNext(liaison);
+                    nextCouche.handle("ERREUR", fichier);//send to liaison serveur
                 }
             }
-        } else if(verificationRecu(message) == true) {
+        } else if(verificationRecu(message)) {
             fichier = paquets.get(numeroPaquet(message)+1);
 
-            nextCouche.handle("sendToLiaison", fichier);
+            setNext(liaison);
+            nextCouche.handle("ENVOI", fichier);//send to liaison client
         } else {
-            fichier = retransmission(message);
+            try {
+                fichier = retransmission(message);
 
-            nextCouche.handle("sendToLiaison", fichier);
+                setNext(liaison);
+                nextCouche.handle("ENVOI", fichier);//send to liaison client
+            } catch (TransmissionErrorException e) {
+                setNext(application);
+                nextCouche.handle("sendToApplication", null);//send to application client
+            }
         }
-
-        return verification;
     }
 
     private String remplissage(String chaine, int quantite) {
@@ -144,29 +163,29 @@ public class Transport implements Couche {
         return Integer.parseInt(numPaquet);
     }
 
-    public boolean verificationEnvoie(byte[] message) {
+    private boolean verificationEnvoie(byte[] message) {
         boolean verif = false;
         String trans = new String(Arrays.copyOfRange(message, 33, 39), StandardCharsets.UTF_8);
 
-        if(trans=="Envoie") {
+        if(trans.equals("Envoie")) {
             verif = true;
         }
 
         return verif;
     }
 
-    public boolean verificationRecu(byte[] message) {
+    private boolean verificationRecu(byte[] message) {
         boolean verif = false;
         String trans = new String(Arrays.copyOfRange(message, 33, 37), StandardCharsets.UTF_8);
 
-        if(trans=="Recu") {
+        if(trans.equals("Recu")) {
             verif = true;
         }
 
         return verif;
     }
 
-    public boolean verificationNumeroPaquet(byte[] message) {
+    private boolean verificationNumeroPaquet(byte[] message) {
         boolean verif = false;
 
         if(paquets.size() > 1) {
@@ -205,7 +224,7 @@ public class Transport implements Couche {
         return paquet;
     }
 
-    public boolean verificationDernier(byte[] message) {
+    private boolean verificationDernier(byte[] message) {
         boolean verif = false;
 
         int numPaquet = numeroPaquet(message);
@@ -218,7 +237,7 @@ public class Transport implements Couche {
         return verif;
     }
 
-    public byte[] accuserReception(byte[] message) {
+    private byte[] accuserReception(byte[] message) {
         byte[] paquet = new byte[51];
         int position = 0;
         String recu = "Recu----";
@@ -234,11 +253,11 @@ public class Transport implements Couche {
         return paquet;
     }
 
-    public byte[] accuserReceptionErreur(byte[] message) {
+    private byte[] accuserReceptionErreur(byte[] message) {
         byte[] paquet = new byte[51];
         String trans = new String(Arrays.copyOfRange(message, 40, 41), StandardCharsets.UTF_8);
         String erreur = "Erreur:"+trans;
-        String numeroPaquet =  numeroPaquet = "Numero:"+(numeroPaquet(message)-1);
+        String numeroPaquet = "Numero:"+(numeroPaquet(message)-1);
         numeroPaquet = remplissage(numeroPaquet, 16);
         int positionNumero = 0, positionTrans = 0;
 
@@ -257,5 +276,24 @@ public class Transport implements Couche {
         }
 
         return paquet;
+    }
+
+    private byte[] creationFichier() {
+        byte[] fichier;
+        ByteArrayOutputStream paquet = new ByteArrayOutputStream();
+        for(int index = 1 ; index < paquets.size(); index++) {
+            try {
+                if(index < paquets.size() - 1) {
+                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 250));
+                } else {
+                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 250));
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        fichier = paquet.toByteArray();
+
+        return fichier;
     }
 }
