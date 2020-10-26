@@ -6,13 +6,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
-
 public class Transport implements Couche {
     private Couche nextCouche;
     private Couche application;
     private LiaisonDeDonnees liaison;
     private ArrayList<byte[]> paquets = new ArrayList<>();
+    private int erreur = 0;
 
     @Override
     public void SetNext(Couche couche) {
@@ -35,7 +34,7 @@ public class Transport implements Couche {
             nextCouche.Handle(typeRequest, message);
         } else if (typeRequest.equals("ErreurCRC")) {
             SetNext(liaison);
-            nextCouche.Handle("Envoi", paquets.get(numeroPaquet(message)));
+            nextCouche.Handle("Envoi", accuserReceptionErreur(message));
         } else if (typeRequest.equals("Recu")) {
             lireTrame(message);
         } else if(typeRequest.equals("LireFichier")) {
@@ -245,14 +244,22 @@ public class Transport implements Couche {
     private byte[] retransmission(byte[] message) throws TransmissionErrorException {
         int numeroPaquet = numeroPaquet(message);
         String transmission = new String(Arrays.copyOfRange(message, 40, 41), StandardCharsets.UTF_8);
-        int nbEnvoie;
         byte[] paquet;
 
         paquet = paquets.get(numeroPaquet);
 
-        nbEnvoie = Integer.parseInt(transmission)+1;
-        if(nbEnvoie < 4) {
-            paquet[42] = (byte) String.valueOf(nbEnvoie).charAt(0);
+        erreur++;
+        if(erreur < 4) {
+            String recu = "Envoie:"+erreur;
+            int position = 0;
+
+            for(int index = 0; index < 51; index++) {
+                paquet[index] = message[index];
+                if(index >= 33 && index <= 40) {
+                    paquet[index] = (byte) recu.charAt(position);
+                    position++;
+                }
+            }
         } else {
             throw new TransmissionErrorException("Paquet #"+numeroPaquet+" perdu");
         }
