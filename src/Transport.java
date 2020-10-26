@@ -156,7 +156,7 @@ public class Transport implements Couche {
                 nextCouche.handle("ENVOI", fichier);//send to liaison client
             } catch (TransmissionErrorException e) {
                 setNext(application);
-                nextCouche.handle("sendToApplication", null);//send to application client
+                nextCouche.handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
             }
         }
     }

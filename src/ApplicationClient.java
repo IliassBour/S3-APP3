@@ -1,4 +1,5 @@
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class ApplicationClient implements Couche {
@@ -17,6 +18,16 @@ public class ApplicationClient implements Couche {
             String adresseIp = scanner.next();
 
             nextCouche.handle("Adresse", adresseIp.getBytes());
+        } else if (typeRequest.equals("PaquetPerdu")) {
+            String erreur = new String(message, StandardCharsets.UTF_8);
+            System.err.println(erreur);
+
+            Transport transport = new Transport();
+            transport.setApplication(this);
+            //transport.setLiaison(new Liaison());
+            nextCouche = transport;
+
+            this.handle(null, null);
         } else {
             System.out.println("Écrire l'emplacement du fichier : ");
             String nomFichier = scanner.next();
@@ -32,6 +43,7 @@ public class ApplicationClient implements Couche {
                     contenu += ligne + "\n";
                 }
 
+                reader.close();
                 contenu = contenu.substring(0, contenu.length()-1);
                 nextCouche.handle(nomFichier, contenu.getBytes());
             } catch (FileNotFoundException e) {
