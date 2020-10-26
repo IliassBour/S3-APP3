@@ -27,6 +27,7 @@ public class Transport implements Couche {
 
     @Override
     public void Handle(String typeRequest, byte[] message) {
+        System.out.println(typeRequest);
         if(typeRequest.equals("Adresse")) {
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
@@ -61,7 +62,7 @@ public class Transport implements Couche {
             numeroPaquet = remplissage(numeroPaquet, 16);
 
             //Création de la partie de l'entête pour le denier du paquet
-            dernierPaquet = "Dernier:"+index;
+            dernierPaquet = "Dernier:"+Math.ceil(tailleFichier/200);
             dernierPaquet = remplissage(dernierPaquet, 17);
 
             //Création de la partie de l'entête pour la transmision
