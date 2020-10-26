@@ -127,8 +127,8 @@ public class Transport implements Couche {
                 } else {
                     fichier = accuserReception(message);
 
-                    setNext(liaison);
-                    nextCouche.handle("ENVOI", fichier);//send to liaison serveur
+                    SetNext(liaison);
+                    nextCouche.Handle("ENVOI", fichier);//send to liaison serveur
                 }
             } else {
                 //Vérifie s'il s'agit du premier paquet
