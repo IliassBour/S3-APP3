@@ -24,7 +24,7 @@ public class ApplicationClient implements Couche {
 
             Transport transport = new Transport();
             transport.setApplication(this);
-            //transport.setLiaison(new Liaison());
+            transport.setLiaison(new LiaisonDeDonnees(transport));
             nextCouche = transport;
 
             this.Handle(null, null);
@@ -40,11 +40,14 @@ public class ApplicationClient implements Couche {
                 reader = new BufferedReader(reader1);
 
                 while ((ligne = reader.readLine()) != null) {
+                    System.out.println(ligne);
                     contenu += ligne + "\n";
                 }
 
                 reader.close();
                 contenu = contenu.substring(0, contenu.length()-1);
+
+                System.out.println("You did it");
                 nextCouche.Handle(nomFichier, contenu.getBytes());
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -52,5 +55,16 @@ public class ApplicationClient implements Couche {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+        ApplicationClient appClient = new ApplicationClient();
+        Transport coucheTransport = new Transport();
+        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport);
+        appClient.SetNext(coucheTransport);
+        coucheTransport.setApplication(appClient);
+        coucheTransport.setLiaison(coucheLiaisonDeDonnee);
+
+        appClient.Handle(null, null);
     }
 }

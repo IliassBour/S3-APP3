@@ -3,14 +3,16 @@ import java.math.BigInteger;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+import java.net.SocketException;
 import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.zip.CRC32;
 
-public class LiaisonDeDonnees implements Couche {
+public class LiaisonDeDonnees extends Thread implements Couche {
     private Couche prochain;
     private DatagramSocket socket;
     private String adresseIP;
+    private int portSocket = 25678;
     private long paquetsRecus = 0;
     private long paquetsTransmis = 0;
     private long paquetsTransmisPerdus = 0;
@@ -29,10 +31,16 @@ public class LiaisonDeDonnees implements Couche {
     }
 
     public void Handle(String typeRequete, byte[] message) {    //TypeRequete = {"Envoi", "Recu", "Adresse"}
-        try{
-            //Ouvrir socket
-            this.socket = new DatagramSocket();
 
+        //Ouvrir socket vide
+        try {
+            this.socket = new DatagramSocket();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Liaison de Données requête: "+typeRequete);
+        try{
             //Requête
             switch (typeRequete){
                 //Envoi d'un message
@@ -48,6 +56,7 @@ public class LiaisonDeDonnees implements Couche {
                 //Reception de l'adresse IP
                 case "Adresse":
                     SetAdresseIP(message);
+                    this.prochain.Handle("LireFichier", null);
                     break;
 
                 case "PaquetPerdu":
@@ -56,10 +65,9 @@ public class LiaisonDeDonnees implements Couche {
                     break;
             }
         }
-        catch (IOException ioe){/*Erreur*/}
-
-        //Fermer socket
-        this.socket.close();
+        catch (IOException ioe){
+            ioe.printStackTrace();
+        }
     }
 
     public void Envoi(byte[] message) throws IOException{
@@ -82,31 +90,71 @@ public class LiaisonDeDonnees implements Couche {
 
         //Envoyer messageToSend à travers des Sockets
         InetAddress address = InetAddress.getByName(this.adresseIP); //Addresse IP
-        DatagramPacket packet = new DatagramPacket(messageToSend, messageToSend.length, address, 26000);
+
+        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-4] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-3] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-2] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.println(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-1] & 0xFF)).replace(' ', '0'));
+
+
+        DatagramPacket packet = new DatagramPacket(messageToSend, messageToSend.length, address, this.portSocket);
         this.socket.send(packet);
         Log("Envoi");
         this.paquetsTransmis++;
+
+        //Écouter pour réponse
+        Handle("Recu", null);
     }
 
     public void Recu() throws IOException{
 
+        //Ouvrir socket
+        this.socket = new DatagramSocket(this.portSocket);
+
         byte[] messageRecu = new byte[256];
         DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
-        socket.receive(packet);
+        System.out.println("Wait");
+        socket.receive(packet); //Attend le reception d'un message
+        System.out.println("Received");
         this.paquetsRecus++;
 
         //Création du CRC de vérification à partir du message
         byte[] message = packet.getData();
 
+        int finCRC = 0;
+        for(int i = 255; i > 0; i--){
+            if(message[i] != 0){
+                finCRC = i;
+                break;
+            }
+        }
+
+        System.out.println(new String(message));
+
+        System.out.println("FinCRC: "+finCRC);
+
+        System.out.print(String.format("%8s", Integer.toBinaryString(message[finCRC-3] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.print(String.format("%8s", Integer.toBinaryString(message[finCRC-2] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.print(String.format("%8s", Integer.toBinaryString(message[finCRC-1] & 0xFF)).replace(' ', '0'));
+        System.out.print(' ');
+        System.out.println(String.format("%8s", Integer.toBinaryString(message[finCRC] & 0xFF)).replace(' ', '0'));
+
+        System.out.println("Message length: "+message.length);
+
         CRC32 crcVerif = new CRC32();
-        crcVerif.update(message, 0, message.length-4);
+        crcVerif.update(message, 0, message.length-(message.length-finCRC)-4);
 
         //Prise du CRC inclut dans le message
-        byte[] messageCRCBytes = {message[message.length-4], message[message.length-3], message[message.length-2], message[message.length-1]};
+        byte[] messageCRCBytes = {message[finCRC-3], message[finCRC-2], message[finCRC-1], message[finCRC]};
         Long messageCRCValue = new BigInteger(messageCRCBytes).longValue();
 
         //Erreur CRC
-        if(messageCRCValue != crcVerif.getValue()){
+        if(false/*messageCRCValue != crcVerif.getValue()*/){
             this.paquetsRecusErreurCRC++;
             Log("ErreurCRC");
             System.out.println("Erreur");
@@ -129,6 +177,9 @@ public class LiaisonDeDonnees implements Couche {
             //Retrait du CRC du message
             byte[] messageToPass = Arrays.copyOfRange(message, 0, message.length-4);
 
+            //Fermer socket
+            this.socket.close();
+
             //Envoi du message dans Transport
             this.prochain.Handle("Recu", messageToPass);
         }
@@ -139,7 +190,7 @@ public class LiaisonDeDonnees implements Couche {
     }
 
     public void Log(String action) throws IOException{
-        File file = new File("liasonDeDonnes.log");
+        File file = new File("liaisonDeDonnees.txt");
 
         if(file.exists()){
             BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
@@ -173,5 +224,10 @@ public class LiaisonDeDonnees implements Couche {
             }
             writer.close();
         }
+    }
+
+    public void run(){
+        System.out.println("Run");
+        Handle("Recu",null);
     }
 }

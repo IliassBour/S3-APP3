@@ -27,4 +27,17 @@ public class ApplicationServeur implements Couche {
 
         nextCouche.Handle("ProchainFichierServeur", null);
     }
+
+    public static void main(String[] args) throws IOException {
+        ApplicationServeur appServeur = new ApplicationServeur();
+        Transport coucheTransport = new Transport();
+        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport);
+        appServeur.SetNext(coucheTransport);
+        coucheTransport.setApplication(appServeur);
+        coucheTransport.setLiaison(coucheLiaisonDeDonnee);
+
+        coucheLiaisonDeDonnee.start();
+
+        //coucheLiaisonDeDonnee.Handle("Recu", null);
+    }
 }

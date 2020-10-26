@@ -1,0 +1,45 @@
+2020-10-26 10:42:57.502  -  ACTION: Envoi d'un paquet
+2020-10-26 10:45:37.845  -  ACTION: Envoi d'un paquet
+2020-10-26 10:47:53.101  -  ACTION: Envoi d'un paquet
+2020-10-26 10:49:04.829  -  ACTION: Envoi d'un paquet
+2020-10-26 10:52:30.782  -  ACTION: Envoi d'un paquet
+2020-10-26 11:12:04.35  -  ACTION: Envoi d'un paquet
+2020-10-26 11:12:04.351  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:14:07.798  -  ACTION: Envoi d'un paquet
+2020-10-26 11:14:07.8  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:15:45.582  -  ACTION: Envoi d'un paquet
+2020-10-26 11:15:45.583  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:20:42.351  -  ACTION: Envoi d'un paquet
+2020-10-26 11:20:42.359  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:23:13.632  -  ACTION: Envoi d'un paquet
+2020-10-26 11:23:13.64  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:34:31.794  -  ACTION: Envoi d'un paquet
+2020-10-26 11:36:12.65  -  ACTION: Envoi d'un paquet
+2020-10-26 11:38:26.251  -  ACTION: Envoi d'un paquet
+2020-10-26 11:43:09.578  -  ACTION: Envoi d'un paquet
+2020-10-26 11:43:58.441  -  ACTION: Envoi d'un paquet
+2020-10-26 11:43:58.449  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:47:05.355  -  ACTION: Envoi d'un paquet
+2020-10-26 11:47:05.363  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:47:38.754  -  ACTION: Envoi d'un paquet
+2020-10-26 11:47:38.761  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:49:27.755  -  ACTION: Envoi d'un paquet
+2020-10-26 11:49:27.762  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 11:55:33.651  -  ACTION: Envoi d'un paquet
+2020-10-26 11:56:15.283  -  ACTION: Envoi d'un paquet
+2020-10-26 11:56:50.74  -  ACTION: Envoi d'un paquet
+2020-10-26 11:59:56.155  -  ACTION: Envoi d'un paquet
+2020-10-26 12:01:19.38  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 12:04:55.923  -  ACTION: Envoi d'un paquet
+2020-10-26 12:04:55.931  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 12:10:01.012  -  ACTION: Envoi d'un paquet
+2020-10-26 12:11:38.484  -  ACTION: Envoi d'un paquet
+2020-10-26 12:12:46.876  -  ACTION: Envoi d'un paquet
+2020-10-26 12:12:46.884  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 12:18:08.518  -  ACTION: Envoi d'un paquet
+2020-10-26 12:18:08.525  -  ACTION: Recu d'un paquet avec erreur CRC
+2020-10-26 12:21:45.799  -  ACTION: Envoi d'un paquet
+2020-10-26 12:21:45.81  -  ACTION: Recu d'un paquet
+2020-10-26 12:26:26.751  -  ACTION: Envoi d'un paquet
+2020-10-26 12:28:44.286  -  ACTION: Envoi d'un paquet
+2020-10-26 12:28:44.294  -  ACTION: Recu d'un paquet
