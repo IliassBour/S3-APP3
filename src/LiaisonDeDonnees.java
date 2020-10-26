@@ -168,7 +168,7 @@ public class LiaisonDeDonnees extends Thread implements Couche {
 
                 //Send Error to Transport
                 //Retrait du CRC du message
-                byte[] messageToPass = Arrays.copyOfRange(message, 0, message.length - 4);
+                byte[] messageToPass = Arrays.copyOfRange(message, 0, finCRC - 3);
 
                 //Envoi du message dans Transport
                 this.prochain.Handle("ErreurCRC", messageToPass);
@@ -180,7 +180,7 @@ public class LiaisonDeDonnees extends Thread implements Couche {
                 System.out.println("Réussite");
 
                 //Retrait du CRC du message
-                byte[] messageToPass = Arrays.copyOfRange(message, 0, message.length - 4);
+                byte[] messageToPass = Arrays.copyOfRange(message, 0, finCRC - 3);
 
                 //Envoi du message dans Transport
                 this.prochain.Handle("Recu", messageToPass);
