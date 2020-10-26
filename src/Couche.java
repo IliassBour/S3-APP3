@@ -1,4 +1,4 @@
 public interface Couche {
-    public void setNext(Couche couche);
-    public void handle(String typeRequest, byte[] message);
+    public void SetNext(Couche couche);
+    public void Handle(String typeRequete, byte[] message);
 }

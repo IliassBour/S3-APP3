@@ -13,7 +13,7 @@ public class Transport implements Couche {
     private ArrayList<byte[]> paquets = new ArrayList<>();
 
     @Override
-    public void setNext(Couche couche) {
+    public void SetNext(Couche couche) {
         nextCouche = couche;
     }
 
@@ -26,26 +26,26 @@ public class Transport implements Couche {
     }
 
     @Override
-    public void handle(String typeRequest, byte[] message) {
+    public void Handle(String typeRequest, byte[] message) {
         if(typeRequest.equals("Adresse")) {
-            setNext(liaison);
-            nextCouche.handle(typeRequest, message);
+            SetNext(liaison);
+            nextCouche.Handle(typeRequest, message);
         } else if (typeRequest.equals("ErreurCRC")) {
-            setNext(liaison);
-            nextCouche.handle("ENVOI", paquets.get(numeroPaquet(message)+1));
-        } else if (typeRequest.equals("RECU")) {
+            SetNext(liaison);
+            nextCouche.Handle("Envoi", paquets.get(numeroPaquet(message)+1));
+        } else if (typeRequest.equals("Recu")) {
             lireTrame(message);
         } else if(typeRequest.equals("LireFichier")) {
-            setNext(application);
-            nextCouche.handle(typeRequest,null);
+            SetNext(application);
+            nextCouche.Handle(typeRequest,null);
         } else if(typeRequest.equals("¨ProchainFichierServeur")) {
-            setNext(liaison);
-            nextCouche.handle(typeRequest, message);
+            SetNext(liaison);
+            nextCouche.Handle(typeRequest, message);
         } else {
             paquets = creerTrame(message, typeRequest);
 
-            setNext(liaison);
-            nextCouche.handle("ENVOI", paquets.get(0));//Liaison donnée
+            SetNext(liaison);
+            nextCouche.Handle("Envoi", paquets.get(0));//Liaison donnée
         }
     }
 
@@ -122,44 +122,44 @@ public class Transport implements Couche {
                             StandardCharsets.UTF_8);
 
                     //send to application serveur
-                    setNext(application);
-                    nextCouche.handle(nomFichier, fichier);
+                    SetNext(application);
+                    nextCouche.Handle(nomFichier, fichier);
                 } else {
                     fichier = accuserReception(message);
 
-                    setNext(liaison);
-                    nextCouche.handle("ENVOIE", fichier);//send to liaison serveur
+                    SetNext(liaison);
+                    nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 }
             } else {
                 //Vérifie s'il s'agit du premier paquet
                 if(numeroPaquet(message) == 0) {
                     fichier = accuserReceptionErreur(message);
 
-                    setNext(liaison);
-                    nextCouche.handle("ENVOI", fichier);//send to liaison serveur
+                    SetNext(liaison);
+                    nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 } else {
                     fichier = accuserReceptionErreur(message);
 
-                    setNext(liaison);
-                    nextCouche.handle("ENVOI", fichier);//send to liaison serveur
+                    SetNext(liaison);
+                    nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 }
             }
         //Vérifie si le paquet est un accusé de reception
         } else if(verificationReception(message)) {
             fichier = paquets.get(numeroPaquet(message)+1);
 
-            setNext(liaison);
-            nextCouche.handle("ENVOI", fichier);//send to liaison client
+            SetNext(liaison);
+            nextCouche.Handle("Envoi", fichier);//send to liaison client
         //Le cas où le paquet est perdu
         } else {
             try {
                 fichier = retransmission(message);
 
-                setNext(liaison);
-                nextCouche.handle("ENVOI", fichier);//send to liaison client
+                SetNext(liaison);
+                nextCouche.Handle("Envoi", fichier);//send to liaison client
             } catch (TransmissionErrorException e) {
-                setNext(application);
-                nextCouche.handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
+                SetNext(application);
+                nextCouche.Handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
             }
         }
     }

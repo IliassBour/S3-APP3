@@ -7,12 +7,12 @@ public class ApplicationServeur implements Couche {
     private Couche nextCouche;
     private File fichier;
     @Override
-    public void setNext(Couche couche) {
+    public void SetNext(Couche couche) {
         nextCouche = couche;
     }
 
     @Override
-    public void handle(String typeRequest, byte[] message) {
+    public void Handle(String typeRequest, byte[] message) {
         fichier = new File(typeRequest);
         String contenu = new String(message, StandardCharsets.UTF_8);
         try {
@@ -25,6 +25,6 @@ public class ApplicationServeur implements Couche {
             e.printStackTrace();
         }
 
-        nextCouche.handle("ProchainFichierServeur", null);
+        nextCouche.Handle("ProchainFichierServeur", null);
     }
 }
