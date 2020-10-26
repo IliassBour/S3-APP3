@@ -37,7 +37,10 @@ public class Transport implements Couche {
             lireTrame(message);
         } else if(typeRequest.equals("LireFichier")) {
             setNext(application);
-            nextCouche.handle("LireFichier",null);
+            nextCouche.handle(typeRequest,null);
+        } else if(typeRequest.equals("¨ProchainFichierServeur")) {
+            setNext(liaison);
+            nextCouche.handle(typeRequest, message);
         } else {
             paquets = creerTrame(message, typeRequest);
 
