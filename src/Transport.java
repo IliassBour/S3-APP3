@@ -128,7 +128,7 @@ public class Transport implements Couche {
                     fichier = accuserReception(message);
 
                     SetNext(liaison);
-                    nextCouche.Handle("ENVOI", fichier);//send to liaison serveur
+                    nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 }
             } else {
                 //Vérifie s'il s'agit du premier paquet
@@ -249,9 +249,15 @@ public class Transport implements Couche {
         boolean verif = false;
 
         int numPaquet = numeroPaquet(message);
-        int dernier = numeroPaquet(paquets.get(paquets.size()-1));
+        String dernier = new String(Arrays.copyOfRange(message, 23, 32), StandardCharsets.UTF_8);
 
-        if(numPaquet == dernier) {
+        try {
+            dernier = dernier.substring(0, dernier.indexOf('-'));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if(numPaquet == Integer.parseInt(dernier)) {
             verif = true;
         }
 
