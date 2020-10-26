@@ -6,10 +6,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
+
 public class Transport implements Couche {
     private Couche nextCouche;
     private Couche application;
-    private Couche liaison;
+    private LiaisonDeDonnees liaison;
     private ArrayList<byte[]> paquets = new ArrayList<>();
 
     @Override
@@ -17,7 +19,7 @@ public class Transport implements Couche {
         nextCouche = couche;
     }
 
-    public void setLiaison(Couche liaison) {
+    public void setLiaison(LiaisonDeDonnees liaison) {
         this.liaison = liaison;
     }
 
@@ -33,10 +35,11 @@ public class Transport implements Couche {
             nextCouche.Handle(typeRequest, message);
         } else if (typeRequest.equals("ErreurCRC")) {
             SetNext(liaison);
-            nextCouche.Handle("Envoi", paquets.get(numeroPaquet(message)+1));
+            nextCouche.Handle("Envoi", paquets.get(numeroPaquet(message)));
         } else if (typeRequest.equals("Recu")) {
             lireTrame(message);
         } else if(typeRequest.equals("LireFichier")) {
+            paquets = new ArrayList<>();
             SetNext(application);
             nextCouche.Handle(typeRequest,null);
         } else if(typeRequest.equals("ProchainFichierServeur")) {
@@ -44,7 +47,14 @@ public class Transport implements Couche {
 
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
-        } else {
+        } else if(typeRequest.equals("TestErreurCRC")){
+            String msg = "Hello World!";
+            paquets = creerTrame(msg.getBytes(), new String(message));
+
+            SetNext(liaison);
+            nextCouche.Handle("TestErreurCRC", paquets.get(0));//Liaison donnée
+
+        } else{
             paquets = creerTrame(message, typeRequest);
 
             SetNext(liaison);

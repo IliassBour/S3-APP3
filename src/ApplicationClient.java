@@ -57,6 +57,11 @@ public class ApplicationClient implements Couche {
         }
     }
 
+    public void EnvoiErreur(Transport transport){
+        String msg = "HelloWorld.txt";
+        transport.Handle("TestErreurCRC", msg.getBytes());
+    }
+
     public static void main(String[] args) throws IOException {
         ApplicationClient appClient = new ApplicationClient();
         Transport coucheTransport = new Transport();
@@ -65,6 +70,8 @@ public class ApplicationClient implements Couche {
         coucheTransport.setApplication(appClient);
         coucheTransport.setLiaison(coucheLiaisonDeDonnee);
 
-        appClient.Handle(null, null);
+        appClient.EnvoiErreur(coucheTransport);
+
+        //appClient.Handle(null, null);
     }
 }
