@@ -13,7 +13,7 @@ public class ApplicationServeur implements Couche {
 
     @Override
     public void Handle(String typeRequest, byte[] message) {
-        fichier = new File(typeRequest);
+        fichier = new File("out/"+typeRequest);
         String contenu = new String(message, StandardCharsets.UTF_8);
         try {
             FileWriter writer = new FileWriter(fichier);

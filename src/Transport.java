@@ -40,6 +40,8 @@ public class Transport implements Couche {
             SetNext(application);
             nextCouche.Handle(typeRequest,null);
         } else if(typeRequest.equals("ProchainFichierServeur")) {
+            paquets = new ArrayList<>();
+
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
         } else {
@@ -53,6 +55,7 @@ public class Transport implements Couche {
     private ArrayList<byte[]> creerTrame(byte[] message, String titre) {
         float tailleFichier = message.length;
         titre = titre.substring(titre.lastIndexOf('/')+1);
+        titre = titre.substring(titre.lastIndexOf('\\')+1);
 
         //Boucle pour séparer le fichier en paquet de 200 octets ou moins
         for(int index = 0; index < Math.ceil(tailleFichier/200)+1; index++) {
