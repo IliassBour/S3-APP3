@@ -27,7 +27,7 @@ public class Transport implements Couche {
 
     @Override
     public void Handle(String typeRequest, byte[] message) {
-        System.out.println(typeRequest);
+        System.out.println("Transport: "+ typeRequest);
         if(typeRequest.equals("Adresse")) {
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
@@ -39,7 +39,7 @@ public class Transport implements Couche {
         } else if(typeRequest.equals("LireFichier")) {
             SetNext(application);
             nextCouche.Handle(typeRequest,null);
-        } else if(typeRequest.equals("¨ProchainFichierServeur")) {
+        } else if(typeRequest.equals("ProchainFichierServeur")) {
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
         } else {
@@ -52,6 +52,7 @@ public class Transport implements Couche {
 
     private ArrayList<byte[]> creerTrame(byte[] message, String titre) {
         float tailleFichier = message.length;
+        titre = titre.substring(titre.lastIndexOf('/')+1);
 
         //Boucle pour séparer le fichier en paquet de 200 octets ou moins
         for(int index = 0; index < Math.ceil(tailleFichier/200)+1; index++) {
@@ -62,7 +63,7 @@ public class Transport implements Couche {
             numeroPaquet = remplissage(numeroPaquet, 16);
 
             //Création de la partie de l'entête pour le denier du paquet
-            dernierPaquet = "Dernier:"+Math.ceil(tailleFichier/200);
+            dernierPaquet = "Dernier:"+(int) Math.ceil(tailleFichier/200);
             dernierPaquet = remplissage(dernierPaquet, 17);
 
             //Création de la partie de l'entête pour la transmision
@@ -210,7 +211,7 @@ public class Transport implements Couche {
     private boolean verificationNumeroPaquet(byte[] message) {
         boolean verif = false;
 
-        if(paquets.size() > 1) {
+        if(paquets.size() >= 1) {
             int numPaquet = numeroPaquet(paquets.get(paquets.size()-1));
             int numPaquetNext = numeroPaquet(message);
 
@@ -250,7 +251,7 @@ public class Transport implements Couche {
         boolean verif = false;
 
         int numPaquet = numeroPaquet(message);
-        String dernier = new String(Arrays.copyOfRange(message, 23, 32), StandardCharsets.UTF_8);
+        String dernier = new String(Arrays.copyOfRange(message, 24, 32), StandardCharsets.UTF_8);
 
         try {
             dernier = dernier.substring(0, dernier.indexOf('-'));
@@ -273,7 +274,7 @@ public class Transport implements Couche {
         for(int index = 0; index < 51; index++) {
             paquet[index] = message[index];
             if(index >= 33 && index <= 40) {
-                paquet[position] = (byte) recu.charAt(position);
+                paquet[index] = (byte) recu.charAt(position);
                 position++;
             }
         }
