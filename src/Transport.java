@@ -51,52 +51,47 @@ public class Transport implements Couche {
     @Override
     public void Handle(String typeRequest, byte[] message) {
         //Envoie de l'adresse IP à la couche LiaisonDeDonnees
-        if(typeRequest.equals("Adresse")) {
-            SetNext(liaison);
-            nextCouche.Handle(typeRequest, message);
-        } //Gére le cas où il y a eu une erreur de CRC à la couche liaison de données du côté du Serveur
-        else if (typeRequest.equals("ErreurCRC")) {
-            erreur++;
-            if(erreur > 3) {
+        //Envoi du premier paquet à la couche LiaisonDeDonnees du côté Client
+        switch (typeRequest) {
+            case "Adresse" -> {
+                SetNext(liaison);
+                nextCouche.Handle(typeRequest, message);
+            }
+            case "ErreurCRC" -> {
+                erreur++;
+                if (erreur > 3) {
+                    paquets = new ArrayList<>();
+                }
+                SetNext(liaison);
+                nextCouche.Handle("Envoi", accuserReceptionErreur(message));
+            }
+            case "Recu" -> lireTrame(message);
+            case "LireFichier" -> {
                 paquets = new ArrayList<>();
-            }
-
-            SetNext(liaison);
-            nextCouche.Handle("Envoi", accuserReceptionErreur(message));
-        } //Reçois un paquet de paquet de la couche LiaisonDeDonnees pour le Serveur et le Client
-        else if (typeRequest.equals("Recu")) {
-            lireTrame(message);
-        } //Demande à la couche ApplicationClient de lire un nouveau fichier
-        else if (typeRequest.equals("LireFichier")) {
-            paquets = new ArrayList<>();
-            SetNext(application);
-            nextCouche.Handle(typeRequest,null);
-        } //Demande à la couche LiaisonDeDonnees du côté du Serveur d'envoyer un nouveau fichier
-        else if (typeRequest.equals("ProchainFichierServeur")) {
-            paquets = new ArrayList<>();
-
-            SetNext(liaison);
-            nextCouche.Handle(typeRequest, message);
-        } //Demande à la couche LiaisonDeDonnees du côté Client d'envoyer une transmission avec une erreur
-        else if (typeRequest.equals("TestErreurCRC")) {
-            String msg = "Hello World!";
-            paquets = creerTrame(msg.getBytes(), new String(message));
-
-            SetNext(liaison);
-            try {
-                nextCouche.Handle("TestErreurCRC", retransmission(paquets.get(0)));//Liaison donnée
-            } catch (TransmissionErrorException e) {
                 SetNext(application);
-                nextCouche.Handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
+                nextCouche.Handle(typeRequest, null);
             }
-
-        } //Création des paquets à partir des données reçu de la couche ApplicationClient
-        else {
-            paquets = creerTrame(message, typeRequest);
-
-            //Envoi du premier paquet à la couche LiaisonDeDonnees du côté Client
-            SetNext(liaison);
-            nextCouche.Handle("Envoi", paquets.get(0));
+            case "ProchainFichierServeur" -> {
+                paquets = new ArrayList<>();
+                SetNext(liaison);
+                nextCouche.Handle(typeRequest, message);
+            }
+            case "TestErreurCRC" -> {
+                String msg = "Hello World!";
+                paquets = creerTrame(msg.getBytes(), new String(message));
+                SetNext(liaison);
+                try {
+                    nextCouche.Handle("TestErreurCRC", retransmission(paquets.get(0)));//Liaison donnée
+                } catch (TransmissionErrorException e) {
+                    SetNext(application);
+                    nextCouche.Handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
+                }
+            }
+            default -> {
+                paquets = creerTrame(message, typeRequest);
+                SetNext(liaison);
+                nextCouche.Handle("Envoi", paquets.get(0));
+            }
         }
     }
 
@@ -348,7 +343,7 @@ public class Transport implements Couche {
     /**
      * Vérifie si le numéro du paquet correspond au denier numéro de paquet
      * @param message est les données du paquet
-     * @return
+     * @return true s'il s'agit du dernier paquet et false dans le cas contraire
      */
     private boolean verificationDernier(byte[] message) {
         boolean verif = false;
@@ -378,7 +373,6 @@ public class Transport implements Couche {
      */
     private byte[] retransmission(byte[] message) throws TransmissionErrorException {
         int numeroPaquet = numeroPaquet(message);
-        String transmission = new String(Arrays.copyOfRange(message, 40, 41), StandardCharsets.UTF_8);
         byte[] paquet;
 
         paquet = paquets.get(numeroPaquet);
@@ -455,11 +449,7 @@ public class Transport implements Couche {
         ByteArrayOutputStream paquet = new ByteArrayOutputStream();
         for(int index = 1 ; index < paquets.size(); index++) {
             try {
-                if(index < paquets.size() - 1) {
-                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 251));
-                } else {
-                    paquet.write(Arrays.copyOfRange(paquets.get(index), 51, 251));
-                }
+                paquet.write(Arrays.copyOfRange(paquets.get(index), 51, paquets.get(index).length));
             } catch (IOException e) {
                 e.printStackTrace();
             }

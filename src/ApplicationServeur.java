@@ -11,7 +11,6 @@ import java.util.Scanner;
  */
 public class ApplicationServeur implements Couche {
     private Couche nextCouche;
-    private File fichier;
 
     /**
      * Initialise la prochaine couche utilisé
@@ -29,7 +28,7 @@ public class ApplicationServeur implements Couche {
      */
     @Override
     public void Handle(String typeRequest, byte[] message) {
-        fichier = new File("out/"+typeRequest);
+        File fichier = new File("out/" + typeRequest);
         String contenu = new String(message, StandardCharsets.UTF_8);
         try {
             FileWriter writer = new FileWriter(fichier);

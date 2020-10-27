@@ -9,7 +9,6 @@ import java.util.Scanner;
  */
 public class ApplicationClient implements Couche {
     private Couche nextCouche;
-    private BufferedReader reader;
 
     /**
      * Initialise la prochaine couche utilisé
@@ -62,7 +61,7 @@ public class ApplicationClient implements Couche {
             String ligne;
             try {
                 FileReader reader1 = new FileReader(fichier);
-                reader = new BufferedReader(reader1);
+                BufferedReader reader = new BufferedReader(reader1);
 
                 System.out.println("\nContenu du fichier :");
                 while ((ligne = reader.readLine()) != null) {
@@ -76,8 +75,6 @@ public class ApplicationClient implements Couche {
                 System.out.println("\nEnvoie du fichier");
 
                 nextCouche.Handle(nomFichier, contenu.getBytes());
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
