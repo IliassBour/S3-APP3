@@ -70,8 +70,10 @@ public class ApplicationClient implements Couche {
         coucheTransport.setApplication(appClient);
         coucheTransport.setLiaison(coucheLiaisonDeDonnee);
 
-        appClient.EnvoiErreur(coucheTransport);
-
-        //appClient.Handle(null, null);
+        if(args == null) {
+            appClient.Handle(null, null);
+        } else {
+            appClient.EnvoiErreur(coucheTransport);
+        }
     }
 }
