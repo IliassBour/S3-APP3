@@ -24,9 +24,14 @@ public class ApplicationClient implements Couche {
 
             Transport transport = new Transport();
             transport.setApplication(this);
-            transport.setLiaison(new LiaisonDeDonnees(transport));
+            transport.setLiaison(new LiaisonDeDonnees(transport, "Client"));
             nextCouche = transport;
 
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             this.Handle(null, null);
         } else {
             System.out.println("Écrire l'emplacement du fichier : ");
@@ -47,7 +52,7 @@ public class ApplicationClient implements Couche {
                 reader.close();
                 contenu = contenu.substring(0, contenu.length()-1);
 
-                System.out.println("You did it");
+
                 nextCouche.Handle(nomFichier, contenu.getBytes());
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -65,7 +70,7 @@ public class ApplicationClient implements Couche {
     public static void main(String[] args) throws IOException {
         ApplicationClient appClient = new ApplicationClient();
         Transport coucheTransport = new Transport();
-        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport);
+        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport, "Client");
         appClient.SetNext(coucheTransport);
         coucheTransport.setApplication(appClient);
         coucheTransport.setLiaison(coucheLiaisonDeDonnee);

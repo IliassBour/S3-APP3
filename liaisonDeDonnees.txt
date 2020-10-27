@@ -1,1246 +1,910 @@
-2020-10-26 16:47:27.444  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.45  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.452  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.453  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.454  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.455  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.456  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.457  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.458  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.459  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.46  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.461  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.462  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.462  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.464  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.464  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.465  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.466  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.467  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.468  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.469  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.47  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.471  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.472  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.473  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.473  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.474  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.475  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.476  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.477  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.478  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.479  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.48  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.48  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.482  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.482  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.483  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.484  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.485  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.485  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.486  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.487  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.488  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.488  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.49  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.49  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.492  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.492  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.494  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.494  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.495  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.496  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.497  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.498  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.499  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.5  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.501  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:27.501  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:27.504  -  ACTION: Envoi d'un paquet
+---DÉBUT DE LA TRANSMISSION---
+
+2020-10-26 18:45:46.497  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.504  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.506  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.509  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.509  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.51  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.511  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.511  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.512  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.513  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.514  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.514  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.515  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.516  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.517  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.517  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.519  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.519  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.52  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.52  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.521  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.522  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.522  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.523  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.523  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.524  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.525  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.526  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.527  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.527  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.528  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.53  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.53  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.53  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.531  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.532  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.533  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.533  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.535  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.535  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.536  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.537  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.538  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.539  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.539  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.54  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.541  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.541  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.542  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.543  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.544  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.544  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.546  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.546  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.547  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.548  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.549  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:46.549  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:46.551  -  ACTION: Envoi d'un paquet
 
 
----STATISTIQUES---
-
-Paquets recus: 15
-Paquets erreur CRC:0 (0%)
-Paquets transmis: 14
-Paquets perdus: 0 (0%)
-
-
-
-2020-10-26 16:47:58.072  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.073  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.074  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.074  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.075  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.076  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.077  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.078  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.079  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.079  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.08  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.081  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.082  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.082  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.083  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.083  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.085  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.085  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.086  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.086  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.088  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.088  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.089  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.09  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.091  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.091  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.093  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.093  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.094  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.095  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.096  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.096  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.098  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.098  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.099  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.1  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.101  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.102  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.103  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.103  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.104  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.105  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.106  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.106  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.108  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.108  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.109  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.11  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.111  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.111  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.112  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.113  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.114  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.114  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.116  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.116  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.117  -  ACTION: Envoi d'un paquet
-2020-10-26 16:47:58.117  -  ACTION: Reception d'un paquet
-2020-10-26 16:47:58.119  -  ACTION: Envoi d'un paquet
-
-
----STATISTIQUES---
-
-Paquets recus: 15
-Paquets erreur CRC:0 (0%)
-Paquets transmis: 15
-Paquets perdus: 0 (0%)
-
-
-
-2020-10-26 16:48:41.959  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.96  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.961  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.961  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.962  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.962  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.963  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.964  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.965  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.965  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.966  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.967  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.968  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.968  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.969  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.97  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.971  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.971  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.972  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.972  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.973  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.974  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.974  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.975  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.976  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.976  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.977  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.977  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.978  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.978  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.979  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.979  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.98  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.981  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.982  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.982  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.983  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.983  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.985  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.985  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.986  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.987  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.988  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.988  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.989  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.99  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.991  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.992  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.993  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.993  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.994  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.995  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.996  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.996  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.998  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:41.998  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:41.999  -  ACTION: Envoi d'un paquet
-2020-10-26 16:48:42.0  -  ACTION: Reception d'un paquet
-2020-10-26 16:48:42.001  -  ACTION: Envoi d'un paquet
-
-
----STATISTIQUES---
-
-Paquets recus: 15
-Paquets erreur CRC:0 (0%)
-Paquets transmis: 15
-Paquets perdus: 0 (0%)
-
-
-
-2020-10-26 16:54:01.918  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.919  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.92  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.92  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.921  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.922  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.922  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.923  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.924  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.924  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.925  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.925  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.926  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.927  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.928  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.928  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.929  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.93  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.931  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.931  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.932  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.932  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.933  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.934  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.935  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.935  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.936  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.936  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.937  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.937  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.938  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.938  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.939  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.939  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.94  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.941  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.941  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.942  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.942  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.943  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.943  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.944  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.945  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.945  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.946  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.946  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.947  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.947  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.948  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.948  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.949  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.949  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.95  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.95  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.951  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.952  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.952  -  ACTION: Envoi d'un paquet
-2020-10-26 16:54:01.953  -  ACTION: Reception d'un paquet
-2020-10-26 16:54:01.954  -  ACTION: Envoi d'un paquet
-
-
----STATISTIQUES---
-
-Paquets recus: 15
-Paquets erreur CRC:0 (0%)
-Paquets transmis: 15
-Paquets perdus: 0 (0%)
-
-
-
-2020-10-26 16:55:10.598  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.604  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.607  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.608  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.609  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.61  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.611  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.612  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.613  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.614  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.615  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.616  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.617  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.617  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.619  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.619  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.62  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.621  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.622  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.623  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.624  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.625  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.626  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.627  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.628  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.628  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.63  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.63  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.632  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.633  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.634  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.634  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.636  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.636  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.637  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.637  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.638  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.639  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.64  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.641  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.642  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.642  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.643  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.644  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.645  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.646  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.647  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.647  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.648  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.649  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.65  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.651  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.652  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.652  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.654  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.654  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.655  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:10.656  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:10.657  -  ACTION: Envoi d'un paquet
-
-
----STATISTIQUES---
+--STATISTIQUES--
 
 Paquets recus: 15
 Paquets erreur CRC:0 (0%)
 Paquets transmis: 14
 Paquets perdus: 0 (0%)
 
+---FIN DE LA TRANSMISSION---
 
 
-2020-10-26 16:55:19.484  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.484  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.485  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.486  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.487  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.487  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.488  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.489  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.49  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.49  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.491  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.492  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.492  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.493  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.494  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.494  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.495  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.495  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.496  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.497  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.498  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.499  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.499  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.5  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.501  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.501  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.503  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.503  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.503  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.505  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.505  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.505  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.507  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.507  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.508  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.508  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.509  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.509  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.511  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.511  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.512  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.513  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.514  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.515  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.516  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.516  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.518  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.518  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.52  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.52  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.521  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.522  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.523  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.523  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.524  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.525  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.526  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.526  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.527  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.528  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.529  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.529  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.531  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.531  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.532  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.533  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.534  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.534  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.535  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.536  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.537  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.538  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.539  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.539  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.54  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.541  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.542  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.542  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.543  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.544  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.544  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.545  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.546  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.546  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.547  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.547  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.548  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.548  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.549  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.55  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.55  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.551  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.552  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.552  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.553  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.553  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.554  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.554  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.555  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.555  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.556  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.556  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.557  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.557  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.558  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.559  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.56  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.56  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.561  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.562  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.563  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.563  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.564  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.564  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.565  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.566  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.566  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.567  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.568  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.568  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.569  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.57  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.571  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.571  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.572  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.572  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.573  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.574  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.575  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.575  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.577  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.577  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.578  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.578  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.58  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.58  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.581  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.581  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.582  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.582  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.583  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.583  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.584  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.585  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.586  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.586  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.587  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.587  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.588  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.589  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.59  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.59  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.591  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.591  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.592  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.592  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.593  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.593  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.594  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.594  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.595  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.596  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.596  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.597  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.597  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.598  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.598  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.598  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.599  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.6  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.6  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.601  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.602  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.602  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.603  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.603  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.604  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.604  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.605  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.606  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.607  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.607  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.608  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.608  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.609  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.61  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.611  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.611  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.612  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.612  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.613  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.613  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.614  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.614  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.616  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.616  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.617  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.618  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.619  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.62  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.622  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.622  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.623  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.624  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.624  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.625  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.626  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.626  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.627  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.628  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.629  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.629  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.63  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.63  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.631  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.631  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.632  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.632  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.633  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.634  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.635  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.635  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.636  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.636  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.638  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.638  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.639  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.639  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.64  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.64  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.641  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.642  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.643  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.643  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.644  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.644  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.645  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.646  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.647  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.647  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.648  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.648  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.65  -  ACTION: Reception d'un paquet
-2020-10-26 16:55:19.649  -  ACTION: Envoi d'un paquet
-2020-10-26 16:55:19.651  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.862  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.868  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.869  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.87  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.872  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.872  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.873  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.874  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.875  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.876  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.877  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.878  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.879  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.88  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.881  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.881  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.882  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.883  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.884  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.885  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.886  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.887  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.888  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.889  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.89  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.891  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.892  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.893  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.894  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.895  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.896  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.896  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.897  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.898  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.899  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.899  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.9  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.901  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.902  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.902  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.903  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.904  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.905  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.905  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.906  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.907  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.908  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.909  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.91  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.91  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.911  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.912  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.913  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.913  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.915  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.915  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.916  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:38.916  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:38.918  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:58.054  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:58.055  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:58.055  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:58.056  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:58.057  -  ACTION: Envoi d'un paquet
+2020-10-26 18:45:58.057  -  ACTION: Reception d'un paquet
+2020-10-26 18:45:58.058  -  ACTION: Envoi d'un paquet
 
 
----STATISTIQUES---
+--STATISTIQUES--
+
+Paquets recus: 2
+Paquets erreur CRC:0 (0%)
+Paquets transmis: 2
+Paquets perdus: 0 (0%)
+
+---FIN DE LA TRANSMISSION---
+
+
+---DÉBUT DE LA TRANSMISSION---
+
+2020-10-26 18:53:04.02  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.026  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.028  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.03  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.031  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.031  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.032  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.033  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.034  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.034  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.035  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.036  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.037  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.038  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.039  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.039  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.04  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.041  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.042  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.042  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.043  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.044  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.044  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.045  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.046  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.046  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.047  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.047  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.048  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.049  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.049  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.05  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.05  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.051  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.052  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.053  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.053  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.054  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.055  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.055  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.056  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.057  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.058  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.058  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.059  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.06  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.061  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.062  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.062  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.063  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.064  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.064  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.065  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.066  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.067  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.067  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:53:04.068  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:53:04.069  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:53:04.07  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
 
 Paquets recus: 15
 Paquets erreur CRC:0 (0%)
 Paquets transmis: 14
 Paquets perdus: 0 (0%)
 
+---FIN DE LA TRANSMISSION---
 
 
-2020-10-26 16:58:47.836  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.837  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.838  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.838  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.84  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.84  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.841  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.842  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.843  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.843  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.845  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.845  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.846  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.846  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.848  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.848  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.849  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.85  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.851  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.851  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.852  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.853  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.854  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.854  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.856  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.856  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.857  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.858  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.858  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.858  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.859  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.86  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.861  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.861  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.863  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.863  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.864  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.865  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.867  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.867  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.868  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.869  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.87  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.87  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.871  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.872  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.873  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.873  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.875  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.875  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.877  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.877  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.877  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.878  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.879  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.879  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.88  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.881  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.882  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.882  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.883  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.884  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.885  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.885  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.887  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.887  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.888  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.888  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.889  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.89  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.891  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.891  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.893  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.893  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.894  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.895  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.895  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.897  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.897  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.897  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.898  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.898  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.899  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.899  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.9  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.901  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.902  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.902  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.904  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.904  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.905  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.905  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.907  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.907  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.908  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.908  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.909  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.909  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.91  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.91  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.911  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.911  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.912  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.913  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.913  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.914  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.915  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.915  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.916  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.916  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.918  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.918  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.919  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.919  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.92  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.92  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.921  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.922  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.923  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.923  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.924  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.924  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.925  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.925  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.927  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.927  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.928  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.928  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.929  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.929  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.93  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.93  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.931  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.932  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.933  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.933  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.934  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.934  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.935  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.935  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.936  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.937  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.938  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.938  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.939  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.939  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.94  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.94  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.941  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.941  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.942  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.942  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.943  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.943  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.944  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.944  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.945  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.945  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.946  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.946  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.947  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.947  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.948  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.948  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.949  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.949  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.95  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.95  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.951  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.951  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.952  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.952  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.953  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.953  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.954  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.954  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.955  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.955  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.956  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.956  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.957  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.958  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.958  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.959  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.96  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.96  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.961  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.961  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.962  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.962  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.963  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.963  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.964  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.965  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.966  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.966  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.968  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.968  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.969  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.969  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.97  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.971  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.972  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.972  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.973  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.973  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.974  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.975  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.976  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.976  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.977  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.977  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.978  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.978  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.979  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.979  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.981  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.981  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.982  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.982  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.983  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.983  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.984  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.984  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.985  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.985  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.986  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.986  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.987  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.987  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.989  -  ACTION: Envoi d'un paquet
-2020-10-26 16:58:47.989  -  ACTION: Reception d'un paquet
-2020-10-26 16:58:47.992  -  ACTION: Envoi d'un paquet
-2020-10-26 17:00:53.991  -  ACTION: Envoi d'un paquet
-2020-10-26 17:00:53.997  -  ACTION: Reception d'un paquet
-2020-10-26 17:00:54.0  -  ACTION: Envoi d'un paquet
-2020-10-26 17:01:37.717  -  ACTION: Envoi d'un paquet
-2020-10-26 17:01:37.723  -  ACTION: Reception d'un paquet
-2020-10-26 17:01:37.725  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.461  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.467  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.469  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.471  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.472  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.473  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.474  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.474  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.475  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.476  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.476  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.477  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.478  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.478  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.479  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.48  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.481  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.482  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.482  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.483  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.483  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.484  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.485  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.485  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.486  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.487  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.488  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.489  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.49  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.49  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.492  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.492  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.493  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.494  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.495  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.495  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.496  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.497  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.498  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.498  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.499  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.5  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.501  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.501  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.502  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.503  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.504  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.504  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.505  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.506  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.507  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.507  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.508  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.509  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.51  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.511  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.512  -  ACTION: Envoi d'un paquet
-2020-10-26 17:04:46.512  -  ACTION: Reception d'un paquet
-2020-10-26 17:04:46.513  -  ACTION: Envoi d'un paquet
+---DÉBUT DE LA TRANSMISSION---
+
+2020-10-26 18:54:06.623  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:54:06.63  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:54:06.632  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 18:54:06.634  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 18:54:06.635  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 18:54:06.635  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 18:54:06.636  -  ID: Serveur ACTION: Envoi d'un paquet
 
 
----STATISTIQUES---
+--STATISTIQUES--
 
-Paquets recus: 15
+Paquets recus: 2
 Paquets erreur CRC:0 (0%)
-Paquets transmis: 14
+Paquets transmis: 1
 Paquets perdus: 0 (0%)
 
+---FIN DE LA TRANSMISSION---
 
 
-2020-10-26 17:05:27.979  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.98  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.98  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.981  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.982  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.983  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.983  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.984  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.985  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.985  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.986  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.987  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.987  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.988  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.989  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.99  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.991  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.991  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.992  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.992  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.993  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.993  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.994  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.994  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.995  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.996  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.997  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.997  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:27.998  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:27.999  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.0  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.0  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.001  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.002  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.003  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.003  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.004  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.004  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.005  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.006  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.007  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.007  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.008  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.009  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.01  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.01  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.011  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.011  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.012  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.013  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.014  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.014  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.015  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.016  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.017  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.017  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.018  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.018  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.019  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.02  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.021  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.021  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.022  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.022  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.023  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.024  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.025  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.025  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.026  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.027  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.028  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.028  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.029  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.029  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.03  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.031  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.032  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.032  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.033  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.033  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.034  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.034  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.035  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.036  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.037  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.037  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.038  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.038  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.039  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.04  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.04  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.041  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.042  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.042  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.043  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.043  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.044  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.044  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.045  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.046  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.047  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.047  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.048  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.048  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.049  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.049  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.05  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.051  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.052  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.052  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.053  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.053  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.054  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.055  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.055  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.056  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.057  -  ACTION: Envoi d'un paquet
-2020-10-26 17:05:28.057  -  ACTION: Reception d'un paquet
-2020-10-26 17:05:28.07  -  ACTION: Envoi d'un paquet
+---DÉBUT DE LA TRANSMISSION---
+
+2020-10-26 19:30:53.884  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 19:30:53.888  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 19:30:53.906  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 19:30:53.916  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 19:30:53.916  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 19:30:53.917  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 19:30:53.918  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 19:30:53.919  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 19:30:53.92  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 19:30:53.922  -  ID: Serveur ACTION: Envoi d'un paquet
 
 
----STATISTIQUES---
+--STATISTIQUES--
 
-Paquets recus: 30
-Paquets erreur CRC:0 (0%)
-Paquets transmis: 30
+Paquets recus: 3
+Paquets erreur CRC:1 (0%)
+Paquets transmis: 3
 Paquets perdus: 0 (0%)
 
+---FIN DE LA TRANSMISSION---
 
 
-2020-10-26 17:06:19.853  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.854  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.855  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.855  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.856  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.856  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.857  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.858  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.859  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.859  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.86  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.86  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.861  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.862  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.863  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.863  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.864  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.864  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.865  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.866  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.867  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.867  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.868  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.868  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.869  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.87  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.871  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.871  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.872  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.872  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.873  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.873  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.875  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.875  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.876  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.876  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.877  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.878  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.878  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.879  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.879  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.88  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.881  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.881  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.882  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.882  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.883  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.884  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.885  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.885  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.886  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.886  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.887  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.887  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.889  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.889  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.89  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.89  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.891  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.892  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.893  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.893  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.894  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.894  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.895  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.895  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.896  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.896  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.897  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.898  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.899  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.899  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.9  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.9  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.901  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.902  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.903  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.903  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.904  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.904  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.905  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.906  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.906  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.907  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.908  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.908  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.909  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.909  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.91  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.91  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.911  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.911  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.912  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.912  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.913  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.913  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.914  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.914  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.915  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.915  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.916  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.916  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.917  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.917  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.918  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.919  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.92  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.92  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.92  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.921  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.922  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.922  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.923  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.923  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.924  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.924  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.925  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.925  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.926  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.926  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.927  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.927  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.928  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.928  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.929  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.929  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.93  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.931  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.931  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.932  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.932  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.933  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.933  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.933  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.934  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.934  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.935  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.935  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.936  -  ACTION: Reception d'un paquet
-2020-10-26 17:06:19.937  -  ACTION: Envoi d'un paquet
-2020-10-26 17:06:19.943  -  ACTION: Envoi d'un paquet
-2020-10-26 18:24:15.707  -  ACTION: Reception d'un paquet avec erreur CRC
+---DÉBUT DE LA TRANSMISSION---
+
+2020-10-26 20:28:18.645  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.648  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.663  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.669  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.67  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.671  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.673  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.674  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.675  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.677  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.678  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.679  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.681  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.682  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.683  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.684  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.685  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.686  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.688  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.689  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.69  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.691  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.692  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.693  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.695  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.696  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.697  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.698  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.699  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.7  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.701  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.702  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.703  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.704  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.705  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.705  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.707  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.708  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.708  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.71  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.711  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.712  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.713  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.714  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.714  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.716  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.717  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.717  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.719  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.72  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.72  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.722  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.723  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.723  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.725  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.726  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.726  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.727  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.728  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.729  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.73  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.731  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.732  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.733  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.734  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.734  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.735  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.736  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.737  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.738  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.739  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.739  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.741  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.741  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.742  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.743  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.744  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.744  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.745  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.746  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.746  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.748  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.748  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.749  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.75  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.751  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.751  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.753  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.754  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.754  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.755  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.756  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.757  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.758  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.759  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.76  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.761  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.762  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.762  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.764  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.765  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.765  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.767  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.768  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.769  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.77  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.77  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.771  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.78  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.781  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.781  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.782  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.783  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.784  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.785  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.786  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.786  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.787  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.788  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.789  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.79  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.791  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.791  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.792  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.793  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.794  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.795  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.796  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.796  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.797  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.798  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.798  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.8  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.8  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.801  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.802  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.803  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.803  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.805  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.806  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.806  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.807  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.808  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.809  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.81  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.811  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.811  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.812  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.813  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.814  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.815  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.816  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.817  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.818  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.819  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.819  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.82  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.821  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.822  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.823  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.824  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.824  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.826  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.827  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.827  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.828  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.83  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.83  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.831  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.832  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.833  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:28:18.834  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:28:18.836  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:28:18.836  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.671  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.674  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.695  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.704  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.705  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.706  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.708  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.709  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.71  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.712  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.713  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.714  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.716  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.717  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.718  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.72  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.722  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.723  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.725  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.726  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.726  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.728  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.729  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.731  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.732  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.734  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.735  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.736  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.737  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.738  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.74  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.741  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.743  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.745  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.746  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.747  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.748  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.749  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.75  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.752  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.753  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.753  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.755  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.756  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.756  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.758  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.759  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.76  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.761  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.762  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.763  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.765  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.766  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.766  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.768  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.769  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.769  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.771  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.772  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.772  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.774  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.775  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.776  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.777  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.778  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.779  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.781  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.781  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.782  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.784  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.785  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.785  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.787  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.788  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.788  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.79  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.791  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.792  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.793  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.794  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.794  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.796  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.797  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.797  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.799  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.799  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.8  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.801  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.802  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.803  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.804  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.805  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.805  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.807  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.808  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.809  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.81  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.811  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.812  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.813  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.814  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.815  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.816  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.817  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.817  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.818  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.82  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.82  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.829  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.83  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.83  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.832  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.833  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.833  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.834  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.835  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.836  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.838  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.839  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.839  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.84  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.841  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.841  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.843  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.844  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.844  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.846  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.847  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.847  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.848  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.849  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.85  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.851  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.852  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.852  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.854  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.855  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.855  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.857  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.858  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.859  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.86  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.862  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.862  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.864  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.865  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.865  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.867  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.868  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.869  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.87  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.871  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:30:00.872  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:30:00.874  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:30:00.875  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:40:38.156  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:40:38.159  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:40:38.176  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:40:38.184  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:40:38.185  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:40:38.186  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:40:38.186  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:40:38.187  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:40:38.188  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:40:38.189  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
+
+Paquets recus: 3
+Paquets erreur CRC:1 (0%)
+Paquets transmis: 3
+Paquets perdus: 0 (0%)
+
+---FIN DE LA TRANSMISSION---
+
+
+2020-10-26 20:42:36.678  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:42:36.681  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:42:36.702  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:42:36.709  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:42:36.711  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:42:36.712  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:43:23.072  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:43:23.072  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:43:23.091  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:43:23.099  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:43:23.1  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:43:23.101  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:45:19.976  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:45:19.978  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:45:19.996  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:45:20.003  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:45:20.004  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:45:20.005  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:45:53.79  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:45:53.791  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:45:53.808  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:45:53.815  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:45:53.816  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:45:53.817  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:01.741  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:46:01.742  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:01.758  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:01.766  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:46:01.768  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:01.768  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:08.862  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:46:08.863  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:08.879  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:08.887  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:46:08.888  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:08.889  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.935  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.936  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.937  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.938  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.938  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.939  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.94  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.94  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.941  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.942  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.942  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.943  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.944  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.944  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.945  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.945  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.946  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.946  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.947  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.948  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.949  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.949  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.95  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.951  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.951  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.952  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.953  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.953  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.954  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.955  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.955  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.956  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.956  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.957  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.958  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.958  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.959  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.96  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.96  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.961  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.962  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.962  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.963  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.963  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.964  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.965  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.966  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.966  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.967  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.967  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.968  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.968  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.969  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.969  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.97  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.97  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:46:35.971  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:46:35.971  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:46:35.973  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
+
+Paquets recus: 27
+Paquets erreur CRC:12 (0%)
+Paquets transmis: 27
+Paquets perdus: 0 (0%)
+
+---FIN DE LA TRANSMISSION---
+
+
+2020-10-26 20:49:05.392  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:49:05.395  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:05.412  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:05.419  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:49:05.419  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:05.42  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:05.422  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:49:05.424  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:05.425  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.018  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.019  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.02  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.021  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.022  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.023  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.024  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.025  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.026  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.027  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.028  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.029  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.03  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.031  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.032  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.032  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.034  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.034  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.035  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.036  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.037  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.037  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.038  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.039  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.04  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.041  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.042  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.043  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.043  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.044  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.045  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.046  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.047  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.047  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.048  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.049  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.05  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.05  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.051  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.052  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.053  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.053  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.054  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.055  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.056  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.057  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.058  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.058  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.059  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.06  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.061  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.061  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.062  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.063  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.063  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.064  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:49:47.065  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:49:47.065  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:49:47.067  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
+
+Paquets recus: 18
+Paquets erreur CRC:3 (0.0%)
+Paquets transmis: 18
+Paquets perdus: 0 (0.0%)
+
+---FIN DE LA TRANSMISSION---
+
+
+2020-10-26 20:52:32.645  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:52:32.648  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:32.669  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:32.678  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:52:32.679  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:32.68  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:32.681  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:52:32.683  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:32.683  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.145  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.146  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.147  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.148  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.149  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.149  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.15  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.151  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.151  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.152  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.153  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.153  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.154  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.155  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.155  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.156  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.157  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.157  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.158  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.159  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.16  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.16  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.161  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.162  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.162  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.163  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.163  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.164  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.165  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.165  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.166  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.167  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.168  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.169  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.169  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.17  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.171  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.172  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.173  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.173  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.174  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.175  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.176  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.176  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.177  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.177  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.178  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.179  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.18  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.18  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.181  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.182  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.183  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.183  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.185  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.185  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:52:44.186  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:52:44.187  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:52:44.188  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
+
+Paquets recus: 18
+Paquets erreur CRC:3 (16.666666666666664%)
+Paquets transmis: 18
+Paquets perdus: 0 (0.0%)
+
+---FIN DE LA TRANSMISSION---
+
+
+2020-10-26 20:56:01.303  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:56:01.307  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:01.328  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:01.338  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:56:01.34  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:01.341  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:01.343  -  ID: Serveur ACTION: Reception d'un paquet avec erreur CRC
+2020-10-26 20:56:01.344  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:01.345  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.186  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.187  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.188  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.189  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.19  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.191  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.192  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.192  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.193  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.194  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.195  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.195  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.196  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.197  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.198  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.198  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.199  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.2  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.201  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.202  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.202  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.203  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.204  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.205  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.206  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.206  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.207  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.208  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.209  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.21  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.211  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.211  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.212  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.213  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.214  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.214  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.216  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.216  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.217  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.217  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.218  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.219  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.219  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.22  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.221  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.222  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.222  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.223  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.224  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.224  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.225  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.226  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.227  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.228  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.229  -  ID: Serveur ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.229  -  ID: Client ACTION: Reception d'un paquet
+2020-10-26 20:56:24.23  -  ID: Client ACTION: Envoi d'un paquet
+2020-10-26 20:56:24.23  -  ID: Serveur ACTION: Reception d'un paquet
+2020-10-26 20:56:24.232  -  ID: Serveur ACTION: Envoi d'un paquet
+
+
+--STATISTIQUES--
+
+Paquets recus: 18
+Paquets erreur CRC:3 (16.67%)
+Paquets transmis: 18
+Paquets perdus: 0 (0.00%)
+
+---FIN DE LA TRANSMISSION---
+
+

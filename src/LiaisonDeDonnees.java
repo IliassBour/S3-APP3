@@ -10,6 +10,7 @@ public class LiaisonDeDonnees extends Thread implements Couche {
     private Couche prochain;
     private DatagramSocket socket;
     private String adresseIP;
+    private String identity;
     private int portSocket = 25678;
     private long paquetsRecus = 0;
     private long paquetsTransmis = 0;
@@ -20,8 +21,9 @@ public class LiaisonDeDonnees extends Thread implements Couche {
 
     public LiaisonDeDonnees(){ }
 
-    public LiaisonDeDonnees(Couche couche){
+    public LiaisonDeDonnees(Couche couche, String id){
         this.prochain = couche;
+        this.identity = id;
     }
 
     public void SetNext(Couche couche){
@@ -68,6 +70,10 @@ public class LiaisonDeDonnees extends Thread implements Couche {
 
                 case "TestErreurCRC":
                     TestErreurCRC(message);
+                    break;
+
+                case "TestRecuErreur":
+                    TestRecuErreur();
                     break;
             }
         }
@@ -157,15 +163,15 @@ public class LiaisonDeDonnees extends Thread implements Couche {
     }
 
     public void Recu() throws IOException{
+        byte[] messageRecu = new byte[256];
+        DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
 
         //Ouvrir socket
         this.socket = new DatagramSocket(this.portSocket);
 
-        byte[] messageRecu = new byte[256];
-        DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
-        //.out.println("Wait");
+        System.out.println("Wait");
         this.socket.receive(packet); //Attend le reception d'un message
-        //System.out.println("Received");
+        System.out.println("Received");
         this.socket.close(); //Fermer Socket
         this.paquetsRecus++;
 
@@ -257,29 +263,38 @@ public class LiaisonDeDonnees extends Thread implements Couche {
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             String log;
             switch (action){
+                case "Debut":
+                    log = "---DÉBUT DE LA TRANSMISSION---\n\n";
+                    writer.write(log);
+                    break;
+
                 case "Envoi":
-                    log = timestamp+"  -  ACTION: Envoi d'un paquet\n";
+                    log = timestamp+"  -  ID: "+ this.identity +" ACTION: Envoi d'un paquet\n";
                     writer.write(log);
                     break;
 
                 case "Recu":
-                    log = timestamp+"  -  ACTION: Reception d'un paquet\n";
+                    log = timestamp+"  -  ID: "+ this.identity +" ACTION: Reception d'un paquet\n";
                     writer.write(log);
                     break;
 
                 case "ErreurCRC":
-                    log = timestamp+"  -  ACTION: Reception d'un paquet avec erreur CRC\n";
+                    log = timestamp+"  -  ID: "+ this.identity +" ACTION: Reception d'un paquet avec erreur CRC\n";
                     writer.write(log);
                     break;
 
                 case "Stats":
-                    log = "\n\n---STATISTIQUES---\n\n"
+                    log = "\n\n--STATISTIQUES--\n\n"
                         + "Paquets recus: "+this.paquetsRecus+"\n"
-                        + "Paquets erreur CRC:"+this.paquetsRecusErreurCRC+" ("+(this.paquetsRecusErreurCRC/this.paquetsRecus)*100+"%)\n"
+                        + "Paquets erreur CRC:"+this.paquetsRecusErreurCRC+" ("+ String.format("%.2f", ((double)this.paquetsRecusErreurCRC/(double)this.paquetsRecus)*100)+"%)\n"
                         + "Paquets transmis: "+this.paquetsTransmis+"\n"
-                        + "Paquets perdus: "+this.paquetsTransmisPerdus+" ("+(this.paquetsTransmisPerdus/this.paquetsTransmis)*100+"%)\n\n\n\n";
+                        + "Paquets perdus: "+this.paquetsTransmisPerdus+" ("+ String.format("%.2f", ((double)this.paquetsTransmisPerdus/(double)this.paquetsTransmis)*100)+"%)\n\n";
                     writer.write(log);
+                    break;
 
+                case "Fin":
+                    log = "---FIN DE LA TRANSMISSION---\n\n\n";
+                    writer.write(log);
                     //Reset des variables
                     this.paquetsRecus = 0;
                     this.paquetsRecusErreurCRC = 0;
@@ -296,9 +311,10 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         byte[] messageVide = new byte[256];
         DatagramPacket packet = new DatagramPacket(messageVide, messageVide.length, address, this.portSocket);
         this.socket.send(packet);
+        this.paquetsTransmis++;
         Log("Envoi");
         Log("Stats");
-        this.paquetsTransmis++;
+        Log("Fin");
 
         //Écouter pour réponse
         Handle("Recu", null);
@@ -337,7 +353,94 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         this.socket.send(packet);
 
         //Écouter pour réponse
-        Handle("Recu", null);
+        Handle("TestRecuErreur", null);
+    }
+
+    private void TestRecuErreur() throws IOException{
+        byte[] messageRecu = new byte[256];
+        DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
+
+        //Ouvrir socket
+        this.socket = new DatagramSocket(this.portSocket);
+
+        System.out.println("Wait");
+        this.socket.receive(packet); //Attend le reception d'un message
+        System.out.println("Received");
+        this.socket.close(); //Fermer Socket
+        this.paquetsRecus++;
+
+        byte[] message = packet.getData();
+
+        if(verificationVide(message)) {
+            prochain.Handle("LireFichier", null);
+        } else {
+            //Création du CRC de vérification à partir du message
+            int finMessage = 0;
+            for (int i = 4; i < 256; i++) {
+                if (message[i] == 0) {
+                    System.out.println("Message["+i+"]: "+new String(new byte[]{message[i]}));
+                    finMessage = i-1;
+                    break;
+                }
+            }
+            System.out.println("finMessage: "+finMessage);
+
+            System.out.print(String.format("%8s", Integer.toBinaryString(message[0] & 0xFF)).replace(' ', '0'));
+            System.out.print(' ');
+            System.out.print(String.format("%8s", Integer.toBinaryString(message[1] & 0xFF)).replace(' ', '0'));
+            System.out.print(' ');
+            System.out.print(String.format("%8s", Integer.toBinaryString(message[2] & 0xFF)).replace(' ', '0'));
+            System.out.print(' ');
+            System.out.println(String.format("%8s", Integer.toBinaryString(message[3] & 0xFF)).replace(' ', '0'));
+
+            //Créer message pour crcVérif
+            byte[] crcVerifMessage = Arrays.copyOfRange(message, 4, finMessage+1);
+            System.out.println("MESSAGE RECU: "+new String(crcVerifMessage));
+            System.out.println("Message length: "+crcVerifMessage.length);
+
+            CRC32 crcVerif = new CRC32();
+            crcVerif.reset();
+            crcVerif.update(crcVerifMessage);
+
+            //Prise du CRC inclut dans le message
+            byte[] messageCRCBytes = {message[0], message[1], message[2], message[3]};
+            //Long messageCRCValue = new BigInteger(messageCRCBytes).longValue();
+            long messageCRCValue = 0;
+            for (int i = 0; i < messageCRCBytes.length; i++) {
+                messageCRCValue = (messageCRCValue << 8) + (messageCRCBytes[i] & 0xff);
+            }
+
+            System.out.println("CRC recu Bytes: "+new String(messageCRCBytes));
+            System.out.println("CRC recu Value: " + crcVerif.getValue());
+
+            //Erreur CRC
+            if (/*false*/messageCRCValue != crcVerif.getValue()) {
+                this.paquetsRecusErreurCRC++;
+                Log("ErreurCRC");
+                System.out.println("Erreur CRC");
+                System.out.println("messageCRCValue: " + messageCRCValue);
+                System.out.println("crcVerif value: " + crcVerif.getValue());
+
+                //Send Error to Transport
+                //Retrait du CRC du message
+                byte[] messageToPass = Arrays.copyOfRange(message, 4, finMessage+1);
+
+                //Envoi du message dans Transport
+                this.prochain.Handle("TestErreurCRC", messageToPass);
+
+            }
+            //Réussite CRC
+            else {
+                Log("Recu");
+                System.out.println("Réussite CRC");
+
+                //Retrait du CRC du message
+                byte[] messageToPass = Arrays.copyOfRange(message, 4, finMessage+1);
+
+                //Envoi du message dans Transport
+                this.prochain.Handle("TestErreurCRC", messageToPass);
+            }
+        }
     }
 
     public void run(){
