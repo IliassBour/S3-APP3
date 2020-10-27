@@ -83,7 +83,13 @@ public class Transport implements Couche {
             paquets = creerTrame(msg.getBytes(), new String(message));
 
             SetNext(liaison);
-            nextCouche.Handle("TestErreurCRC", paquets.get(0));
+            try {
+                nextCouche.Handle("TestErreurCRC", retransmission(paquets.get(0)));//Liaison donnée
+            } catch (TransmissionErrorException e) {
+                SetNext(application);
+                nextCouche.Handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
+            }
+
         } //Création des paquets à partir des données reçu de la couche ApplicationClient
         else {
             paquets = creerTrame(message, typeRequest);
@@ -390,7 +396,7 @@ public class Transport implements Couche {
                 }
             }
         } else {
-            throw new TransmissionErrorException("Connexion perdu");
+            throw new TransmissionErrorException("Connexion perdue");
         }
 
         return paquet;

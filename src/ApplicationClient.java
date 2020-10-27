@@ -43,9 +43,14 @@ public class ApplicationClient implements Couche {
 
             Transport transport = new Transport();
             transport.setApplication(this);
-            transport.setLiaison(new LiaisonDeDonnees(transport));
+            transport.setLiaison(new LiaisonDeDonnees(transport, "Client"));
             nextCouche = transport;
 
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             this.Handle(null, null);
         } //Demande le fichier à sauvergarder par le serveur
         else {
@@ -91,7 +96,7 @@ public class ApplicationClient implements Couche {
     public static void main(String[] args) throws IOException {
         ApplicationClient appClient = new ApplicationClient();
         Transport coucheTransport = new Transport();
-        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport);
+        LiaisonDeDonnees coucheLiaisonDeDonnee = new LiaisonDeDonnees(coucheTransport, "Client");
         appClient.SetNext(coucheTransport);
         coucheTransport.setApplication(appClient);
         coucheTransport.setLiaison(coucheLiaisonDeDonnee);
