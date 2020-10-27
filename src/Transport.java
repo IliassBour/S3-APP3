@@ -33,6 +33,11 @@ public class Transport implements Couche {
             SetNext(liaison);
             nextCouche.Handle(typeRequest, message);
         } else if (typeRequest.equals("ErreurCRC")) {
+            erreur++;
+            if(erreur > 3) {
+                paquets = new ArrayList<>();
+            }
+            
             SetNext(liaison);
             nextCouche.Handle("Envoi", accuserReceptionErreur(message));
         } else if (typeRequest.equals("Recu")) {
@@ -145,6 +150,11 @@ public class Transport implements Couche {
                     nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 }
             } else {
+                erreur++;
+                if(erreur > 3) {
+                    paquets = new ArrayList<>();
+                }
+
                 //Vérifie s'il s'agit du premier paquet
                 if(numeroPaquet(message) == 0) {
                     fichier = accuserReceptionErreur(message);
@@ -152,13 +162,20 @@ public class Transport implements Couche {
                     SetNext(liaison);
                     nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 } else {
+                    String numeroPaquet = "Numero:"+(numeroPaquet(message)-1);
+                    numeroPaquet = remplissage(numeroPaquet, 16);
+                    int positionNumero = 0;
+                    for(int index = 0; index < 16; index++) {
+                        message[index] = (byte) numeroPaquet.charAt(positionNumero);
+                        positionNumero++;
+                    }
                     fichier = accuserReceptionErreur(message);
 
                     SetNext(liaison);
                     nextCouche.Handle("Envoi", fichier);//send to liaison serveur
                 }
             }
-        //Vérifie si le paquet est un accusé de reception
+        //Vérifie si le paquet est un accusé de reception de type Reçu
         } else if(verificationReception(message)) {
             fichier = paquets.get(numeroPaquet(message)+1);
 
@@ -306,17 +323,10 @@ public class Transport implements Couche {
         byte[] paquet = new byte[51];
         String trans = new String(Arrays.copyOfRange(message, 40, 41), StandardCharsets.UTF_8);
         String erreur = "Erreur:"+trans;
-        String numeroPaquet = "Numero:"+(numeroPaquet(message)-1);
-        numeroPaquet = remplissage(numeroPaquet, 16);
-        int positionNumero = 0, positionTrans = 0;
+        int positionTrans = 0;
 
         for(int index = 0; index < 51; index++) {
             paquet[index] = message[index];
-
-            if(paquets.size() > 1 && index < 16) {
-                paquet[index] = (byte) numeroPaquet.charAt(positionNumero);
-                positionNumero++;
-            }
 
             if(index >= 33 && index <= 40) {
                 paquet[index] = (byte) erreur.charAt(positionTrans);
