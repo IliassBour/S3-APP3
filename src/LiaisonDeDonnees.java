@@ -3,9 +3,13 @@ import java.math.BigInteger;
 import java.net.*;
 import java.sql.Timestamp;
 import java.util.Arrays;
-import java.util.concurrent.locks.Lock;
 import java.util.zip.CRC32;
 
+/**
+ * Liaison de données est la couche Liaison De Données pour le client et le serveur
+ * @author Iliass Bouraba et Pedro Maria Scoccimarro
+ * @version 1.0
+ */
 public class LiaisonDeDonnees extends Thread implements Couche {
     private Couche prochain;
     private DatagramSocket socket;
@@ -17,19 +21,31 @@ public class LiaisonDeDonnees extends Thread implements Couche {
     private long paquetsTransmisPerdus = 0;
     private long paquetsRecusErreurCRC = 0;
 
-    //private byte[] polynome = {1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1};
-
     public LiaisonDeDonnees(){ }
 
+    /**
+    * Initialise la prochaine couche utilisé
+    * @param couche est la prochaine couche de la chaîne de responsabilité
+     * @param id est l'identifiant de l'entité qui crée la couhe. (Client ou Serveur)
+    */
     public LiaisonDeDonnees(Couche couche, String id){
         this.prochain = couche;
         this.identity = id;
     }
 
+    /**
+     * Initialise la prochiane couche de cette couche
+     * @param couche est la couche suivante
+     */
     public void SetNext(Couche couche){
         this.prochain = couche;
     }
 
+    /**
+     * Gére les données reçus en paramètre selon le type de requête envoyé
+     * @param typeRequest correspond à la requête
+     * @param message correspond aux données reçus
+     */
     public void Handle(String typeRequete, byte[] message) {    //TypeRequete = {"Envoi", "Recu", "Adresse"}
 
         //Ouvrir socket vide
@@ -82,7 +98,11 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         }
     }
 
-    private void Envoi(byte[] message) throws IOException{
+    /**
+     * Ajoute la valeur CRC à la fin du message et l'envoi au travers du socket
+     * @param message correspond aux données reçus
+     */
+    public void Envoi(byte[] message) throws IOException{
         //Calcul CRC du message
         CRC32 crc = new CRC32();
         crc.reset();
@@ -136,22 +156,6 @@ public class LiaisonDeDonnees extends Thread implements Couche {
 
         //Envoyer messageToSend à travers des Sockets
         InetAddress address = InetAddress.getByName(this.adresseIP); //Addresse IP
-        /*
-        System.out.println("MESSAGE ENVOYE: "+new String(message));
-        System.out.println("Message length: "+message.length);
-
-        System.out.println("CRC envoi Bytes: "+new String(crcBytes));
-        System.out.println("CRC envoi Value: "+crc.getValue());
-
-
-        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-4] & 0xFF)).replace(' ', '0'));
-        System.out.print(' ');
-        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-3] & 0xFF)).replace(' ', '0'));
-        System.out.print(' ');
-        System.out.print(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-2] & 0xFF)).replace(' ', '0'));
-        System.out.print(' ');
-        System.out.println(String.format("%8s", Integer.toBinaryString(messageToSend[messageToSend.length-1] & 0xFF)).replace(' ', '0'));
-        */
 
         DatagramPacket packet = new DatagramPacket(messageToSend, messageToSend.length, address, this.portSocket);
         this.socket.send(packet);
@@ -162,7 +166,10 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         Handle("Recu", null);
     }
 
-    private void Recu() throws IOException{
+    /**
+     * Recoit les données au travers du socket et fait la vérification CRC
+     */
+    public void Recu() throws IOException{
         byte[] messageRecu = new byte[256];
         DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
 
@@ -189,15 +196,6 @@ public class LiaisonDeDonnees extends Thread implements Couche {
                     break;
                 }
             }
-            System.out.println("finMessage: "+finMessage);
-
-            System.out.print(String.format("%8s", Integer.toBinaryString(message[0] & 0xFF)).replace(' ', '0'));
-            System.out.print(' ');
-            System.out.print(String.format("%8s", Integer.toBinaryString(message[1] & 0xFF)).replace(' ', '0'));
-            System.out.print(' ');
-            System.out.print(String.format("%8s", Integer.toBinaryString(message[2] & 0xFF)).replace(' ', '0'));
-            System.out.print(' ');
-            System.out.println(String.format("%8s", Integer.toBinaryString(message[3] & 0xFF)).replace(' ', '0'));
 
             //Créer message pour crcVérif
             byte[] crcVerifMessage = Arrays.copyOfRange(message, 4, finMessage+1);
@@ -216,16 +214,11 @@ public class LiaisonDeDonnees extends Thread implements Couche {
                 messageCRCValue = (messageCRCValue << 8) + (messageCRCBytes[i] & 0xff);
             }
 
-            System.out.println("CRC recu Bytes: "+new String(messageCRCBytes));
-            System.out.println("CRC recu Value: " + crcVerif.getValue());
-
             //Erreur CRC
             if (/*false*/messageCRCValue != crcVerif.getValue()) {
                 this.paquetsRecusErreurCRC++;
                 Log("ErreurCRC");
                 System.out.println("Erreur CRC");
-                System.out.println("messageCRCValue: " + messageCRCValue);
-                System.out.println("crcVerif value: " + crcVerif.getValue());
 
                 //Send Error to Transport
                 //Retrait du CRC du message
@@ -249,10 +242,18 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         }
     }
 
+    /**
+     * Initialise l'adresse IP utilisée pour la communication
+     * @param message L'adresse IP à se connecter à.
+     */
     public void SetAdresseIP(byte[] message){
         this.adresseIP = new String(message);
     }
 
+    /**
+     * Écrit l'action comises dans un log
+     * @param action correspond à l'action effectué
+     */
     public void Log(String action) throws IOException{
         File file = new File("liaisonDeDonnees.txt");
         FileWriter fileW = new FileWriter(file, true);
@@ -306,6 +307,9 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         }
     }
 
+    /**
+     * Fin du transfert du fichier, demande l'envoi d'un nouveau fichier.
+     */
     private void ProchainFichier() throws IOException {
         InetAddress address = InetAddress.getByName(this.adresseIP);
         byte[] messageVide = new byte[256];
@@ -320,6 +324,10 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         Handle("Recu", null);
     }
 
+    /**
+     * Vérifie si le message ne contient aucune information
+     * @param message message à vérifier
+     */
     private boolean verificationVide(byte[] message) {
         boolean verif = true;
 
@@ -333,6 +341,10 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         return verif;
     }
 
+    /**
+     * Fonction de test qui ajoute une valeur CRC éronné
+     * @param message message à envoyé
+     */
     private void TestErreurCRC(byte[] message) throws IOException{
         byte[] fauxCRC = {40,20,30,10};
 
@@ -356,6 +368,9 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         Handle("TestRecuErreur", null);
     }
 
+    /**
+     * Fonction de test qui recoit l'erreur et la transmet à la couche Transport.
+     */
     private void TestRecuErreur() throws IOException{
         byte[] messageRecu = new byte[256];
         DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
@@ -443,6 +458,9 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         }
     }
 
+    /**
+     * Démarre le thread
+     */
     public void run(){
         System.out.println("Run");
         Handle("Recu",null);
