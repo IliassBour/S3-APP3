@@ -82,7 +82,7 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         }
     }
 
-    public void Envoi(byte[] message) throws IOException{
+    private void Envoi(byte[] message) throws IOException{
         //Calcul CRC du message
         CRC32 crc = new CRC32();
         crc.reset();
@@ -162,7 +162,7 @@ public class LiaisonDeDonnees extends Thread implements Couche {
         Handle("Recu", null);
     }
 
-    public void Recu() throws IOException{
+    private void Recu() throws IOException{
         byte[] messageRecu = new byte[256];
         DatagramPacket packet = new DatagramPacket(messageRecu, messageRecu.length);
 

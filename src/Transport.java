@@ -53,30 +53,34 @@ public class Transport implements Couche {
         //Envoie de l'adresse IP à la couche LiaisonDeDonnees
         //Envoi du premier paquet à la couche LiaisonDeDonnees du côté Client
         switch (typeRequest) {
-            case "Adresse" -> {
+            case "Adresse" :
                 SetNext(liaison);
                 nextCouche.Handle(typeRequest, message);
-            }
-            case "ErreurCRC" -> {
+                break;
+
+            case "ErreurCRC" :
                 erreur++;
                 if (erreur > 3) {
                     paquets = new ArrayList<>();
                 }
+
                 SetNext(liaison);
                 nextCouche.Handle("Envoi", accuserReceptionErreur(message));
-            }
-            case "Recu" -> lireTrame(message);
-            case "LireFichier" -> {
+                break;
+            case "Recu" :
+                lireTrame(message);
+                break;
+                    case "LireFichier" :
                 paquets = new ArrayList<>();
                 SetNext(application);
                 nextCouche.Handle(typeRequest, null);
-            }
-            case "ProchainFichierServeur" -> {
+            break;
+                    case "ProchainFichierServeur" :
                 paquets = new ArrayList<>();
                 SetNext(liaison);
                 nextCouche.Handle(typeRequest, message);
-            }
-            case "TestErreurCRC" -> {
+            break;
+                    case "TestErreurCRC" :
                 String msg = "Hello World!";
                 paquets = creerTrame(msg.getBytes(), new String(message));
                 SetNext(liaison);
@@ -86,12 +90,12 @@ public class Transport implements Couche {
                     SetNext(application);
                     nextCouche.Handle("PaquetPerdu", e.getMessage().getBytes());//send to application client
                 }
-            }
-            default -> {
+            break;
+                    default :
                 paquets = creerTrame(message, typeRequest);
                 SetNext(liaison);
                 nextCouche.Handle("Envoi", paquets.get(0));
-            }
+            break;
         }
     }
 
